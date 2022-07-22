@@ -1,11 +1,17 @@
 body {
     background-color: #1F2937;
-    margin-left: 20%;
-    margin-right: 20%;
     font-family: 'Roboto', sans-serif;
+    margin: 0%;
 }
 
 .header {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* The main bar of the page */
+.header {
+
 }
 
 .header-top {
@@ -31,15 +37,53 @@ a {
 .header-bottom {
     display: flex;
     justify-content: space-between;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 8%;
+    margin-bottom: 10%;
 }
 
 .header-info {
-    width: 30%;
+    width: 40%;
     color: #f9faf8
 }
 
 .header-image {
-    width: 30%
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:darkgrey;
+}
+
+/* The content of the page */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-color: blue;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img {
+    width: 80px;
+    height: 80px;
+    padding: 10%;
+    border-color: aqua;
+    border-style: solid;
 }
